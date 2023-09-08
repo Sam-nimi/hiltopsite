@@ -1,108 +1,320 @@
 <!DOCTYPE html>
 <html>
+
 <head>
+
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
   <title>Tech Site</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link
+    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Roboto:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
+    rel="stylesheet">
+
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/HillTop Tech.png" type="image/x-icon">
+
+  <!-- Vendor CSS Files -->
+  <link href="./animate.css/animate.min.css" rel="stylesheet">
+  <link href="./aos/aos.css" rel="stylesheet">
+  <link href="./bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="./bootstrap-icons/bootstrap-icons.css" rel="stylesheet">
+  <link href="./boxicons/css/boxicons.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="./glightbox/css/glightbox.min.css">
+  <link href="./remixicon/remixicon.css" rel="stylesheet">
+  <link href="./swiper/swiper-bundle.min.css" rel="stylesheet">
+
+  <!-- my css file -->
   <link rel="stylesheet" type="text/css" href="styles.css">
 </head>
+
 <body>
-  <header>
-   
-    <table cellspacing="20">
-      <tr>
-          <td><img src="images/HillTop Tech.png" alt="HillTop Logo"/>
+  <!-- ======= Header ======= -->
+  <header id="header" class="fixed-top">
+    <div class="container d-flex align-items-center">
+      <a href="index.html" class="logo"><img src="images/HillTop Tech.png" alt="HillTop Logo" class="img-fluid"></a>
+      <h1 class="logo me-auto"><a href="index.html"><span>HillTop</span>Tech</a></h1>
+
+      <nav id="navbar" class="navbar order-last order-lg-0">
+        <ul>
+          <li><a href="index.html" class="active">Home</a></li>
+
+          <li class="dropdown"><a href="./About.html"><span>About</span> <i class="bi bi-chevron-down"></i></a>
+            <ul>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="./About.html#team">Team</a></li>
+              <li><a href="./About.html#testimonials">Testimonials</a></li>
+            </ul>
+          </li>
+
+          <li><a href="services.html">Services</a></li>
+          <li><a href="contact.html">Contact</a></li>
+
+          <div class="header-social-links d-flex">
+            <a href="https://twitter.com/Ojonimisamson45?t=LeKskVDVaGVSPJDHdjfUkg&s=09" class="twitter"><i class="bu bi-twitter"></i></a>
+            <a href="https://www.facebook.com/samsonojonimi.emmanuel?mibextid=ZbWKwL" class="facebook"><i class="bu bi-facebook"></i></a>
+            <a href="https://instagram.com/nimix_4_christ?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="instagram"><i class="bu bi-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/emmanuel-ojonimi" class="linkedin"><i class="bu bi-linkedin"></i></i></a>
           </div>
-          <td> <h1>HillTop Technologies Website</h1>
-            <nav>
-              <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="About.html">About</a></li>
-                <li><a href="Services.html">Services</a></li>
-                <li><a href="Contact.html">Contact</a></li>
-              </ul>
-            </nav></td></td>
-      </tr>
-     </table>
-  </header>
-  
-  <main>
-    <section>
-      <h2>Welcome to HillTop Technologies</h2>
-        <p>At HillTop Technologies, we are dedicated to bringing you the latest news, trends, and insights from the world of technology. Whether you are a tech enthusiast, a professional in the industry, or simply curious about the advancements shaping our digital landscape, you've come to the right place.</p>
-        <p>Our team of experts is passionate about all things tech, and we strive to deliver informative and engaging content that will keep you informed and inspired. From in-depth articles and product reviews to helpful tutorials and thought-provoking analyses, we aim to be your go-to resource for all things tech-related.</p>
-        <p>Explore our site to discover a wide range of topics, including web development, mobile apps, artificial intelligence, cybersecurity, emerging technologies, and much more. Whether you're looking for practical tips, industry updates, or simply want to stay in the loop, we've got you covered.</p>
-        <p>Thank you for joining us on this exciting journey through the ever-evolving world of technology. We hope you find our content valuable and enjoy your time here at TechSite. Feel free to reach out to us with any questions, suggestions, or feedback you may have. Happy exploring!</p>
+        </ul>
+        <i class="bi bi-list mobile-nav-toggle"></i>
+      </nav><!-- .navbar -->
 
-    </section>
-    
-    <section>
-       
-      <table cellspacing="20">
-        <tr>
-            <td><img src="images/web dev.jpeg" alt="web dev"/>
+
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Hero Section ======= -->
+  <section id="hero">
+    <div id="heroCarousel" data-bs-interval="5000" class="carousel slide carousel-fade" data-bs-ride="carousel">
+
+      <div class="carousel-inner" role="listbox">
+
+        <!-- Slide 1 -->
+        <div class="carousel-item active" style="background-image: url(./images/developers.jpg);">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>Welcome to <span> HillTop Technologies</span></h2>
+              <p>your ultimate destination for all things tech-related. We are a passionate team of tech enthusiasts who are dedicated to sharing our knowledge, insights, and expertise with our readers.</p>
+              <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
             </div>
-            <td> <h1>Website Development</h1>
-            
-              <p> Web development refers to the process of creating websites and web applications. It involves various aspects such as web design, web programming, server-side scripting, client-side scripting, and database management. Here are some key components and technologies commonly used in web development:</p>
-              <ol>
-              <P><li>HTML (Hypertext Markup Language): It provides the structure and content of web pages.</li></P>
-              <P><li>CSS (Cascading Style Sheets): It is used for styling and layout of web pages, including fonts, colors, and positioning.</li></P>
-              <P><li>JavaScript: It is a programming language used for enhancing interactivity and functionality on the client-side of web applications.</li></P>
-              <P><li>Front-end Frameworks: These frameworks, such as React, Angular, and Vue.js, provide pre-built components and libraries to streamline the development process.</li></P>
-              <P><li>Back-end Development: It involves server-side programming using languages like PHP, Python, Ruby, or Node.js. It handles data processing, database management, and business logic.</li></P>
-            </ol>
-              </td></td>
-        </tr>
-       </table>
+          </div>
+        </div>
 
-    </section>
-    
-    <section>
-      <table cellspacing="20">
-        <tr>
-            <td><img src="images/mobile app dev.jpeg" alt="Mobile app"/>
+        <!-- Slide 2 -->
+        <div class="carousel-item" style="background-image: url(./images/mobile\ app\ dev.jpeg);">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>Welcome to <span> HillTop Technologies</span></h2>
+              <p>your ultimate destination for all things tech-related. We are a passionate team of tech enthusiasts who are dedicated to sharing our knowledge, insights, and expertise with our readers.</p>
+              <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
             </div>
-            <td> <h1>Mobile App development</h1>
-            
-              <p> Mobile app development is the process of creating software applications that are specifically designed to run on mobile devices such as smartphones and tablets. Mobile apps are developed for various platforms, including iOS (Apple's operating system) and Android (Google's operating system).
+          </div>
+        </div>
 
-                Here are the key steps involved in mobile app development:</p>
-              <ol>
-              <P><li>Idea and Conceptualization: Determine the purpose and goal of your app. Identify the target audience and research similar apps in the market. Refine your app idea and outline its features and functionalities.</li></P>
-              <P><li>Planning and Design: Create a detailed plan for your app, including its architecture, user interface (UI), and user experience (UX) design. Design wireframes and prototypes to visualize the app's flow and structure.</li></P>
-              <P><li>Deployment: Prepare the app for release by creating developer accounts on respective app stores (Apple App Store, Google Play Store) and following their submission guidelines. Generate necessary certificates, icons, and screenshots. Submit the app for review and approval.</li></P>
-              <P><li>Distribution and Maintenance: Once the app is approved, it can be downloaded and installed by users from the app stores. Monitor user feedback and reviews, and address any reported issues promptly through updates and bug fixes. Regularly update the app with new features and improvements to keep users engaged.</li></P>
-              
-            </ol>
-              </td></td>
-        </tr>
-       </table>
-    </section>
-    
-    <section>
-      <table cellspacing="20">
-        <tr>
-            <td><img src="images/training.jpg" alt="training"/>
+        <!-- Slide 3 -->
+        <div class="carousel-item" style="background-image: url(./images/background3.jpg);">
+          <div class="carousel-container">
+            <div class="carousel-content animate__animated animate__fadeInUp">
+              <h2>Welcome to <span> HillTop Technologies</span></h2>
+              <p>your ultimate destination for all things tech-related. We are a passionate team of tech enthusiasts who are dedicated to sharing our knowledge, insights, and expertise with our readers.</p>
+              <div class="text-center"><a href="" class="btn-get-started">Read More</a></div>
             </div>
-            <td> <h1>Training of Digital skills</h1>
-            
-              <p> CT training refers to the process of acquiring knowledge and skills in the field of Information and Communication Technology (ICT). It involves learning about various technologies, tools, and applications used in the digital world. ICT training is essential for individuals and professionals who want to stay updated with the latest technology trends and enhance their digital literacy.
+          </div>
+        </div>
 
-                Here are some key areas of ICT training:</p>
-              <ol>
-              <P><li>Basic Computer Skills: This training focuses on fundamental computer skills such as operating systems, file management, word processing, spreadsheets, presentations, and internet usage. It helps beginners become familiar with computers and essential software.</li></P>
-              <P><li>Software Applications: Training in specific software applications is provided to develop proficiency in tools like Microsoft Office Suite (Word, Excel, PowerPoint, Outlook), project management software, graphic design tools, and database management systems.</li></P>
-              <P><li>Programming and Software Development: ICT training may cover programming languages such as Python, Java, C++, or web development technologies like HTML, CSS, JavaScript, and frameworks like React or Angular. It enables individuals to develop software applications and websites.</li></P>
-              <P><li>Networking and Infrastructure: This training focuses on networking concepts, network administration, configuring routers and switches, managing servers, understanding protocols (TCP/IP), and security fundamentals. It helps individuals acquire skills to set up and maintain computer networks.</li></P>
-              <P><li>Cloud Computing: As cloud services gain popularity, ICT training covers cloud computing platforms like Amazon Web Services (AWS), Microsoft Azure, or Google Cloud. It includes understanding cloud concepts, deploying applications, managing storage, and ensuring security in the cloud</li></P>
-            </ol>
-              </td></td>
-        </tr>
-       </table>
+      </div>
+
+      <a class="carousel-control-prev" href="#heroCarousel" role="button" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon bi bi-chevron-left" aria-hidden="true"></span>
+      </a>
+
+      <a class="carousel-control-next" href="#heroCarousel" role="button" data-bs-slide="next">
+        <span class="carousel-control-next-icon bi bi-chevron-right" aria-hidden="true"></span>
+      </a>
+
+      <ol class="carousel-indicators" id="hero-carousel-indicators"></ol>
+
+    </div>
+  </section><!-- End Hero -->
+
+  <main id="main">
+    <!-- ======= About Section ======= -->
+    <section id="about" class="about">
+      <div class="container">
+        <div class="icon-boxes d-flex flex-column justify-content-center">
+          <div class="row">
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="100">
+                <div class="icon"><i class="bx bxl-dribbble"></i></div>
+                <h4 class="title"><a href="">Software Development</a></h4>
+                <p class="description">Innovative and custom software solutions tailored to your unique needs</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="200">
+                <div class="icon"><i class="bx bx-tachometer"></i></div>
+                <h4 class="title"><a href="">24/7 Support</a></h4>
+                <p class="description">Round-the-clock assistance to address any technical issues or inquiries.</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="300">
+                <div class="icon"><i class="bx bx-file"></i></div>
+                <h4 class="title"><a href="">Data Security</a></h4>
+                <p class="description">Stringent measures to protect your sensitive information from cyber threats</p>
+              </div>
+            </div>
+
+            <div class="col-md-6 col-lg-3 d-flex align-items-stretch mb-5 mb-lg-0">
+              <div class="icon-box" data-aos="fade-up" data-aos-delay="400">
+                <div class="icon"><i class="bx bx-world"></i></div>
+                <h4 class="title"><a href="">Scalability</a></h4>
+                <p class="description">Solutions designed to grow with your business and adapt to changing demands.</p>
+              </div>
+            </div>
+
+          </div>
+        </div><!-- End .content-->
+      </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <!-- ======= F.A.Q Section ======= -->
+    <section id="faq" class="faq">
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="row gy-4">
+
+          <div class="col-lg-7 d-flex flex-column justify-content-center align-items-stretch  order-2 order-lg-1">
+
+            <div class="content px-xl-5">
+              <h3>Frequently Asked <strong>Questions</strong></h3>
+              <p>
+                These FAQs addresses Hiltop Tech's expertise, sustainability commitment, data security, unique qualities, and community involvement, providing insights into our company
+              </p>
+            </div>
+
+            <div class="accordion accordion-flush px-xl-5" id="faqlist">
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="200">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-1">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    What does Hiltop Technology specialize in?
+                  </button>
+                </h3>
+                <div id="faq-content-1" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Hiltop Technology specializes in cutting-edge software development, innovative hardware engineering, and providing comprehensive technology solutions to businesses across various industries.
+                  </div>
+                </div>
+              </div>
+              <!-- # Faq item-->
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="300">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-2">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Can you tell me about Hiltop's commitment to sustainability?
+                  </button>
+                </h3>
+                <div id="faq-content-2" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    At Hiltop Technology, sustainability is at the core of our values. We prioritize eco-friendly practices in product development, reducing waste, and promoting energy efficiency across our operations.
+                  </div>
+                </div>
+              </div>
+              <!-- # Faq item-->
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="400">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-3">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    How does Hiltop ensure data security and privacy in its products?
+                  </button>
+                </h3>
+                <div id="faq-content-3" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    We prioritize data security and privacy by implementing robust encryption, strict access controls, and regular security audits. Our products are designed with the highest standards of protection to safeguard your data.
+                  </div>
+                </div>
+              </div>
+              <!-- # Faq item-->
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="500">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-4">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    What sets Hiltop apart from other tech companies?
+                  </button>
+                </h3>
+                <div id="faq-content-4" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Hiltop stands out through its relentless pursuit of innovation, customer-centric approach, and a talented team of experts. Our dedication to pushing technological boundaries makes us a trusted partner for transformative solutions.
+                  </div>
+                </div>
+              </div>
+              <!-- # Faq item-->
+
+              <div class="accordion-item" data-aos="fade-up" data-aos-delay="600">
+                <h3 class="accordion-header">
+                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#faq-content-5">
+                    <i class="bi bi-question-circle question-icon"></i>
+                    Is Hiltop involved in community initiatives or philanthropy?
+                  </button>
+                </h3>
+                <div id="faq-content-5" class="accordion-collapse collapse" data-bs-parent="#faqlist">
+                  <div class="accordion-body">
+                    Yes, Hiltop Technology is committed to giving back to the community. We actively participate in local educational programs, charitable organizations, and initiatives that promote STEM education and support underserved communities.
+                  </div>
+                </div>
+              </div>
+              <!-- # Faq item-->
+
+            </div>
+
+          </div>
+
+          <div class="col-lg-5 align-items-stretch order-1 order-lg-2 img"
+            style='background-image: url("./images/faq.jpg");'>&nbsp;</div>
+        </div>
+
+      </div>
     </section>
+    <!-- End F.A.Q Section -->
+
   </main>
-  
-  <footer>
-    <p>&copy; 2023 HillTop Technologies. All rights reserved.</p>
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="container d-md-flex py-4">
+
+      <div class="me-md-auto text-center text-md-start">
+        <div class="copyright">
+          &copy; Copyright 2023 <strong><span>HillTop Technologies</span></strong>. All Rights Reserved
+        </div>
+        <div class="credits">
+          Designed by <a href="https://dr-savant21.github.io/Israel_Ajagboye_portfolio/">SavantCodeTech</a>
+        </div>
+      </div>
+      <div class="social-links text-center text-md-right pt-3 pt-md-0">
+        <a href="https://twitter.com/Ojonimisamson45?t=LeKskVDVaGVSPJDHdjfUkg&s=09" class="twitter"><i class="bx bxl-twitter"></i></a>
+        <a href="https://www.facebook.com/samsonojonimi.emmanuel?mibextid=ZbWKwL" class="facebook"><i class="bx bxl-facebook"></i></a>
+        <a href="https://instagram.com/nimix_4_christ?utm_source=qr&igshid=MzNlNGNkZWQ4Mg%3D%3D" class="instagram"><i class="bx bxl-instagram"></i></a>
+        <a href="https://www.linkedin.com/in/emmanuel-ojonimi" class="linkedin"><i class="bx bxl-linkedin"></i></a>
+      </div>
+    </div>
   </footer>
+
+
+
+  <a href="#" class="back-to-top d-flex align-items-center justify-content-center"><i
+      class="bi bi-arrow-up-short"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="./aos/aos.js"></script>
+  <script src="./bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="./glightbox/js/glightbox.min.js"></script>
+  <script src="./isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="./waypoints/noframework.waypoints.js"></script>
+  <script src="./swiper/swiper-bundle.min.js"></script>
+
+  <!-- main js file -->
+  <script src="./main.js"></script>
 </body>
+
 </html>
